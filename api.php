@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application.json');
+header('Content-Type: application/json');
 
 $musicData = [
     ['id' => "6G8bQewuts9Lonmty8iZ8O", 'title' => "edge of chaos", "type" => "album"],
@@ -11,14 +11,37 @@ $musicData = [
 ];
 
 $photoData = [
-    ["id" => 1, "title" => "silencio"],
-    ["id" => 2, "title" => "silencio"],
-    ["id" => 3, "title" => "silencio"],
-    ["id" => 4, "title" => "silencio"],
+    ["id" => 1, "title" => "silencio", "credit"=>"Zoe Fan"],
+    ["id" => 2, "title" => "silencio", "credit"=>"Zoe Fan"],
+    ["id" => 3, "title" => "silencio", "credit"=>"Zoe Fan"],
+    ["id" => 4, "title" => "silencio", "credit"=>"Zoe Fan"],
     // ["id" => 5, "title" => "citadelle"],
     // ["id" => 6, "title" => "citadelle"],
     // ["id" => 7, "title" => "citadelle"],
     // ["id" => 8, "title" => "citadelle"],
+];
+
+$xrData = [
+    [
+        "title" => "Crime Scence Witness Memory",
+        "videoId" => "QU9uImW4Q9A",
+        "description" => "VR prototype of a crime scene for a research project on eyewitness testimony that I developed within the framework of a University Diploma on VR and Psychology at Université Paris Cité.",
+    ],
+    [
+        "title" => "Prototype of a Skatepark Experience",
+        "videoId" => "jehM7LztfDY",
+        "description" => "VR prototype of a Skatepark experience, which I co-created as part of a team of four students during the 2021 Antwerp Summerschool on Storytelling in VR. I was the team's Unity developer. I also contributed to the storytelling, design and 3D modelling of the North Antwerp Skatepark.",
+    ],
+    [
+        "title" => "Performance Anxiety",
+        "videoId" => "AquWEcbBA7c",
+        "description" => "VR prototype of a performance anxiety app that I developed as a personal project within the framework of Circuit Stream's course on XR development.",
+    ],
+    [
+        "title" => "Solo Dream",
+        "videoId" => "XNcf_-ixQN4",
+        "description" => "'Solar Dream' is a work in progress that I am currently composing for a VR project led and developed in the Unreal Engine by Eric Carter.",
+    ],
 ];
 
 $publicationData = [
@@ -41,29 +64,6 @@ $publicationData = [
     [
         'title' => 'journal article - "does karl marx have a normative conception of justice ?"',
         'link' => "https://heinonline.org/HOL/LandingPage?handle=hein.journals/ucljurev16&div=3&id=&page=",
-    ],
-];
-
-$xrData = [
-    [
-        'title' => "Crime Scence Witness Memory",
-        'videoId' => "QU9uImW4Q9A",
-        'description' => "VR prototype of a crime scene for a research project on eyewitness testimony that I developed within the framework of a University Diploma on VR and Psychology at Université Paris Cité.",
-    ],
-    [
-        'title' => "Prototype of a Skatepark Experience",
-        'videoId' => "jehM7LztfDY",
-        'description' => "VR prototype of a Skatepark experience, which I co-created as part of a team of four students during the 2021 Antwerp Summerschool on Storytelling in VR. I was the team's Unity developer. I also contributed to the storytelling, design and 3D modelling of the North Antwerp Skatepark.",
-    ],
-    [
-        'title' => "Performance Anxiety",
-        'videoId' => "AquWEcbBA7c",
-        'description' => "VR prototype of a performance anxiety app that I developed as a personal project within the framework of Circuit Stream's course on XR development.",
-    ],
-    [
-        'title' => "Solo Dream",
-        'videoId' => "XNcf_-ixQN4",
-        'description' => "'Solar Dream' is a work in progress that I am currently composing for a VR project led and developed in the Unreal Engine by Eric Carter.",
     ],
 ];
 
